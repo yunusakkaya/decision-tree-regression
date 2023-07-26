@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-df= pd.read_csv(r"C:\Users\yunus\Desktop\ıvır zıvır\udemy\decision-tree-regression-dataset.csv",sep=";",header=None)
+df= pd.read_csv("decision-tree-regression-dataset.csv",sep=";",header=None)
 
 x=df.iloc[:,0].values.reshape(-1,1)
 y=df.iloc[:,1].values.reshape(-1,1)
